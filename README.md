@@ -27,7 +27,7 @@
   }
   body.dark-mode .toggle-btn {
     position: fixed;
-    padding: 15px 15px;
+    padding: 0px 15px;
     border: none;
     border-radius: 10%;
     cursor: pointer;
@@ -37,7 +37,7 @@
     }
   .toggle-btn {
     position: fixed;
-    padding: 15px 15px;
+    padding: 0px 15px;
     border: none;
     border-radius: 10%;
     cursor: pointer;
