@@ -14,7 +14,7 @@
   </span>
 </div>
 <div class="col-lg-3">
-  <button class="toggle-btn" onclick=toggleDarkMode()"> 🌙 Dark Mode </button> 
+  <button class="toggle-btn" onclick="toggleDarkMode()"> 🌙 Dark Mode </button> 
 </div>
 <style>
   body {
