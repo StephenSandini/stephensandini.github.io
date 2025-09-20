@@ -1,8 +1,8 @@
 <div class="col-lg-3">
   <img src="profile.jpg" alt="Stephen Sandini" style="border-radius:15%; width:250px;">
   <h5>Software Developer <button class="toggle-btn" onclick="toggleDarkMode()"> 🌙 Dark Mode </button></h5>     
-  <a href="https://www.linkedin.com/in/stephen-sandini/" target="_blank"><img src="linkedin.png" style="width:35px; height:35px;"></a>
-  <a href="https://github.com/StephenSandini" target="_blank"><img src="git.png" style="width:35px; height:35px;"></a>
+  <a href="https://www.linkedin.com/in/stephen-sandini/" target="_blank"><img src="linkedin.png" style="width:35px; height:35px; border-radius:15%;"></a>
+  <a href="https://github.com/StephenSandini" target="_blank"><img src="git.png" style="width:35px; height:35px; border-radius:15%;"></a>
 </div>
 <div class="col-lg-3">
   <span class="info">
