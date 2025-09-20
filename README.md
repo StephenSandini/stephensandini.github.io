@@ -1,2 +1,2 @@
-![Profile Picture] (https://avatars.githubusercontent.com/StephenSandini)
+![Profile Picture] (profile.jpg)
 # stephensandini.github.io
