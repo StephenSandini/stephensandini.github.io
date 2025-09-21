@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="col-lg-3 left">
+  <section class="col-lg-3 left">
     <img src="profile.jpg" alt="Stephen Sandini" style="border-radius:15%; width:250px;">
     <h5>Software Developer <button class="toggle-btn" onclick="toggleDarkMode()"> 🌙 Dark Mode </button></h5>     
     <a href="https://www.linkedin.com/in/stephen-sandini/" target="_blank"><img src="linkedin.png" style="width:35px; height:35px; border-radius:15%;"></a>
@@ -16,13 +16,19 @@
           <li>PL/SQL</li>
         </ul>
       </span>
-  </div>
-  <div class="right">
-    <h4>Bio:</h4>
-    <p>Lorem ipsum</p>
-    <h4>Additional Header?</h4>
-    <p>Lorem ipsum</p>
-  </div>
+  </section>
+  <section class="right">
+    <h2>About Me</h2>
+    <p>I am a software developer with experience in buidling practical appplications and solving real-world problems through code.  Currently, I am pursuing my master's degree in software engineering, where I am expanding my knowldege of advanced development practices, system design, and emergin technologies. My goald is to contribute to innovative projects that combine creativity and technology while continuously growing as a professional.</p>
+    <h2>Areas of Interest</h2>
+    <ul>
+      <li>🌐 Web Development - building responsive, accessible, and scalable web applications</li>
+      <li>📱 Mobile App Development - creating user-friendly, efficient applications for Android and iOS</li>
+      <li>🧠 Artifical Intelligence - exploring machine learning and AI-driven problem solving</li>
+      <li>🎮 Game Development - designing and programming engaging interactive experiences</li>
+      <li>🥽 Virtual Reality (VR) - developing immersive applciations that blend the digital and physical worlds</li>
+    </ul>
+  </section>
 </div>
 <style>
   body {
