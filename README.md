@@ -22,11 +22,31 @@
     <p>I am a software developer with experience in buidling practical appplications and solving real-world problems through code.  Currently, I am pursuing my master's degree in software engineering, where I am expanding my knowldege of advanced development practices, system design, and emergin technologies. My goald is to contribute to innovative projects that combine creativity and technology while continuously growing as a professional.</p>
     <h2>Areas of Interest</h2>
     <ul>
-      <li>🌐 Web Development - building responsive, accessible, and scalable web applications</li>
-      <li>📱 Mobile App Development - creating user-friendly, efficient applications for Android and iOS</li>
-      <li>🧠 Artifical Intelligence - exploring machine learning and AI-driven problem solving</li>
-      <li>🎮 Game Development - designing and programming engaging interactive experiences</li>
-      <li>🥽 Virtual Reality (VR) - developing immersive applciations that blend the digital and physical worlds</li>
+      <li>🌐 Web Development
+        <ul>
+          <li>building responsive, accessible, and scalable web applications</li>
+        </ul> 
+      </li>
+      <li>📱 Mobile App Development
+        <ul>
+          <li>creating user-friendly, efficient applications for Android and iOS</li>
+        </ul>
+      </li>
+      <li>🧠 Artifical Intelligence
+        <ul>
+          <li>exploring machine learning and AI-driven problem solving</li>
+        </ul>
+      </li>
+      <li>🎮 Game Development
+        <ul>
+          <li>designing and programming engaging interactive experiences</li>
+        </ul>
+      </li>
+      <li>🥽 Virtual Reality (VR)
+        <ul>
+          <li>developing immersive applciations that blend the digital and physical worlds</li>
+        </ul>
+      </li>
     </ul>
   </section>
 </div>
