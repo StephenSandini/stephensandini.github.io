@@ -1,8 +1,8 @@
 
 
   <nav>
-    <label style="color: white;">Settings⚙️</label>
     <div class="settings btn-group" role="group">
+       <label style="color: white;">Settings⚙️</label>
        <button class="toggle-btn" onclick="toggleDarkMode()"> 🌙 Dark Mode </button>
        <button class="btn settings-button" onclick="zoomIn()">🔍+</button>
        <button class="btn settings-button" onclick="zoomOut()">🔍-</button>
@@ -75,9 +75,9 @@
     border: none;
     border-radius: 10%;
     cursor: pointer;
-    color: black;
+    color: white;
     font-size: 14px;
-    background-color: #ffffff;
+    background-color: #444;
     }
   .toggle-btn {
     padding: 0px 15px;
