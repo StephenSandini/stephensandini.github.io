@@ -1,12 +1,13 @@
 
-<div class="container">
+
   <nav>
     <div class="settings">
        <button class="toggle-btn" onclick="toggleDarkMode()"> 🌙 Dark Mode </button>
        <button id="font-increase" onclick="increaseFont()">A+</button>
        <button id="font-decrease" onclick="decreaseFont()">A-</button>
     </div>
-  </nav> 
+  </nav>
+<div class="container">
   <section class="col-lg-3 left">
     <img src="profile.jpg" alt="Stephen Sandini" style="border-radius:15%; width:250px;">
     <h5>Software Developer</h5>     
@@ -120,7 +121,7 @@
   }
   nav {
     background-color: #222;
-    padding: 20px;
+    padding: 10px;
     position: sticky;
     top: 0;
     z-index: 999;
