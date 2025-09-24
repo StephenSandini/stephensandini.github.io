@@ -1,7 +1,15 @@
+
 <div class="container">
+  <nav>
+    <div class="settings">
+       <button class="toggle-btn" onclick="toggleDarkMode()"> 🌙 Dark Mode </button>
+       <button id="font-increase" onclick="increaseFont()">A+</button>
+       <button id="font-decrease" onclick="decreaseFont()">A-</button>
+    </div>
+  </nav> 
   <section class="col-lg-3 left">
     <img src="profile.jpg" alt="Stephen Sandini" style="border-radius:15%; width:250px;">
-    <h5>Software Developer <button class="toggle-btn" onclick="toggleDarkMode()"> 🌙 Dark Mode </button></h5>     
+    <h5>Software Developer</h5>     
     <a href="https://www.linkedin.com/in/stephen-sandini/" target="_blank"><img src="linkedin.png" style="width:35px; height:35px; border-radius:15%;"></a>
     <a href="https://github.com/StephenSandini" target="_blank"><img src="git.png" style="width:35px; height:35px; border-radius:15%;"></a>
      <span class="info">
@@ -19,7 +27,7 @@
   </section>
   <section class="right">
     <h2>About Me</h2>
-    <p>I am a software developer with experience in buidling practical appplications and solving real-world problems through code.  Currently, I am pursuing my master's degree in software engineering, where I am expanding my knowldege of advanced development practices, system design, and emergin technologies. My goald is to contribute to innovative projects that combine creativity and technology while continuously growing as a professional.</p>
+    <p>I am a software developer with experience in building practical appplications and solving real-world problems through code.  Currently, I am pursuing my master's degree in software engineering, where I am expanding my knowledge of advanced development practices, system design, and emerging technologies. My goal is to contribute to innovative projects that combine creativity and technology while continuously growing as a professional.</p>
     <h2>Areas of Interest</h2>
     <ul>
       <li>🌐 Web Development
@@ -93,8 +101,54 @@
     flex: 2;
     padding: 15px;
   }
+  .settings {
+    display: flex;
+    gap: 8px;
+  }
+  .settings button {
+    background: #444;
+    color: white;
+    border: none;
+    padding: 0px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+  }
+  .settings button:hover {
+    background: #00bcd4;
+  }
+  nav {
+    background-color: #222;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav li {
+    margin-left: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  nav a:hover {
+    color: #00bcd4;
+  }
 </style>
 <script>
+  let currentFontSize = 16;  
   function toggleDarkMode() {
     document.body.classList.toggle("dark-mode");
     const btn = document.querySelector(".toggle-btn");
@@ -102,6 +156,16 @@
       btn.textContent = "☀️ Light Mode";
     } else {
       btn.textContent = "🌙 Dark Mode";
+    }
+  }
+ function increaseFont() {
+   currentFontSize += 2;
+   document.body.style.fontSize = currentFontSize + "px";
+ }
+  function decreaseFont() {
+    if(currentFont > 12) {
+      currentFontSize -= 2;
+      document.body.style.fontSize = currentFontSize + "px";
     }
   }
 </script>
