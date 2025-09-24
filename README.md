@@ -1,10 +1,11 @@
 
 
   <nav>
-    <div class="settings">
+    <label>Settings⚙️</label>
+    <div class="settings btn-group" role="group">
        <button class="toggle-btn" onclick="toggleDarkMode()"> 🌙 Dark Mode </button>
-       <button onclick="zoomIn()">🔍+</button>
-       <button onclick="zoomOut()">🔍-</button>
+       <button class="btn settings-button" onclick="zoomIn()">🔍+</button>
+       <button class="btn settings-button" onclick="zoomOut()">🔍-</button>
     </div>
   </nav>
 <div class="container">
@@ -70,7 +71,6 @@
     color: white;
   }
   body.dark-mode .toggle-btn {
-    position: fixed;
     padding: 0px 15px;
     border: none;
     border-radius: 10%;
@@ -80,7 +80,6 @@
     background-color: #ffffff;
     }
   .toggle-btn {
-    position: fixed;
     padding: 0px 15px;
     border: none;
     border-radius: 10%;
@@ -105,8 +104,11 @@
   .settings {
     display: flex;
     gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
   }
-  .settings button {
+  .settings-button {
     background: #444;
     color: white;
     border: none;
