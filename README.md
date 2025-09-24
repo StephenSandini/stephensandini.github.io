@@ -58,6 +58,13 @@
         </ul>
       </li>
     </ul>
+    <h2>Current Project</h2>
+    <ul>
+      <li>CSCI 765 Database Project</li>
+      <ul>
+        <li>Geospatial PWA</li>
+      </ul>
+    </ul>
   </section>
 </div>
 <style>
