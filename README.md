@@ -3,8 +3,8 @@
   <nav>
     <div class="settings">
        <button class="toggle-btn" onclick="toggleDarkMode()"> 🌙 Dark Mode </button>
-       <button id="font-increase" onclick="increaseFont()">A+</button>
-       <button id="font-decrease" onclick="decreaseFont()">A-</button>
+       <button onclick="zoomIn()">🔍+</button>
+       <button onclick="zoomOut()">🔍-</button>
     </div>
   </nav>
 <div class="container">
@@ -149,7 +149,7 @@
   }
 </style>
 <script>
-  let currentFontSize = 16;  
+  let scaleLevel = 1;  
   function toggleDarkMode() {
     document.body.classList.toggle("dark-mode");
     const btn = document.querySelector(".toggle-btn");
@@ -159,14 +159,14 @@
       btn.textContent = "🌙 Dark Mode";
     }
   }
- function increaseFont() {
-   currentFontSize += 2;
-   document.body.style.fontSize = currentFontSize + "px";
+ function zoomOut() {
+   scaleLevel = Math.max(0.5, scaleLevel - 0.1);
+   document.body.style.transform = `scale(${scaleLevel})`;
+   document.body.style.transformOrigin = "top left";
  }
-  function decreaseFont() {
-    if(currentFont > 12) {
-      currentFontSize -= 2;
-      document.body.style.fontSize = currentFontSize + "px";
-    }
+  function zoomIn() {
+    scaleLevel += 0.1;
+    document.body.style.transform = `scale(${scaleLevel})`;
+    document.body.style.transform = "top left";
   }
 </script>
