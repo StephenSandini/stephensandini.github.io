@@ -1,7 +1,7 @@
 
 
   <nav>
-    <label>Settings⚙️</label>
+    <label style="color: white;">Settings⚙️</label>
     <div class="settings btn-group" role="group">
        <button class="toggle-btn" onclick="toggleDarkMode()"> 🌙 Dark Mode </button>
        <button class="btn settings-button" onclick="zoomIn()">🔍+</button>
@@ -86,7 +86,7 @@
     cursor: pointer;
     color: white;
     font-size: 14px;
-    background-color: #121212;
+    background: #444;
   }
   .container {
     display: flex;
